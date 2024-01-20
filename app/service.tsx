@@ -1,7 +1,7 @@
 import { getServers } from "dns";
 
-const URL = "http://localhost:5000";
-// const URL = "https://chatoo-api.onrender.com";
+// const URL = "http://localhost:5000";
+const URL = "https://chatoo-api.onrender.com";
 
 export const getTokenData = () => {
   const storageData: Object | any =
